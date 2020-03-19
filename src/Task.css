@@ -1,0 +1,43 @@
+li {
+
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 200px;
+    border-style: dashed;
+    margin: 0 16px 16px 0 ;
+}
+
+.id {
+
+}
+
+.name {
+    font-size: 2em;
+    display: flex;
+    text-align: center;
+    flex: 1;
+    justify-content: center;
+    border-style:dotted ;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    display: flex;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.red{
+    background-color: lightcoral;
+}
